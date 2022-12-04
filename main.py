@@ -1,9 +1,12 @@
 from random import randint
 
 
+<<<<<<< HEAD
 from graphic_arts.start_game_banner import run_screensaver
     """Импорт визуала."""
 
+=======
+>>>>>>> 4b3771e11c07b3edaad1760dbbf00ee5a6fda589
 def attack(char_name: str, char_class: str) -> str:
     if char_class == 'warrior':
         return (f'{char_name} нанёс урон противнику равный '
@@ -86,8 +89,12 @@ def choice_char_class() -> str:
     return char_class
 
 
+<<<<<<< HEAD
 def main() -> None:
     run_screensaver()
+=======
+def main() -> str:
+>>>>>>> 4b3771e11c07b3edaad1760dbbf00ee5a6fda589
     print('Приветствую тебя, искатель приключений!')
     print('Прежде чем начать игру...')
     char_name: str = input('...назови себя: ')
@@ -97,6 +104,10 @@ def main() -> None:
     print('Воитель, Маг, Лекарь')
     char_class: str = choice_char_class()
     print(start_training(char_name, char_class))
+<<<<<<< HEAD
+
+=======
+>>>>>>> 4b3771e11c07b3edaad1760dbbf00ee5a6fda589
 
 
 main()
